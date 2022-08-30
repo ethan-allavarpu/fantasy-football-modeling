@@ -1,7 +1,7 @@
 # fantasy-football-modeling
 Advanced machine learning models to predict future fantasy football performance.
 
-:under-construction: This repository is currently being developed. Last updated on August 30, 2022
+🚧 This repository is currently being developed. Last updated on August 30, 2022
 
 Before implementation, ensure that you have [geckodriver](https://github.com/mozilla/geckodriver/releases) installed and make sure it is in your bin path to use Selenium Webdriver. Geckodriver uses the Firefox browser; if you prefer an alternate browser implementation, you can adjust the code accordingly to scrape the data correctly.
 
