@@ -79,3 +79,81 @@ JavaScript warning: https://www.pro-football-reference.com/years/2021/fantasy.ht
 JavaScript warning: https://www.pro-football-reference.com/years/2021/fantasy.htm, line 211: unreachable code after return statement
 JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 261 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1661470297185	Marionette	INFO	Stopped listening on port 54952
+1661884887169	geckodriver	INFO	Listening on 127.0.0.1:56275
+1661884888067	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0r/9j2372ls7vn11kndzp1l66m40000gn/T/rust_mozprofileomng9G"
+1661884888936	Marionette	INFO	Marionette enabled
+2022-08-30 14:41:28.966 plugin-container[4587:139188] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-30 14:41:28.966 plugin-container[4587:139188] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-30 14:41:28.973 plugin-container[4587:139188] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-30 14:41:28.973 plugin-container[4587:139188] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-30 14:41:28.974 plugin-container[4587:139194] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-30 14:41:28.974 plugin-container[4587:139194] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661884889067	Marionette	INFO	Listening on port 56287
+Read port: 56287
+1661884889546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0r/9j2372ls7vn11kndzp1l66m40000gn/T/rust_mozprofileomng9G/search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.pro-football-reference.com/years/2007/fantasy.htm, line 213: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2007/fantasy.htm, line 213: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 6552 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2008/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2008/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 105 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2009/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2009/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 3745 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2010/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2010/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 700 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2011/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2011/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 1319 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2012/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2012/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 7664 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2013/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2013/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 4459 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2014/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2014/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 3138 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2015/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2015/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 1824 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2016/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2016/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 940 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2017/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2017/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 3588 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2018/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2018/fantasy.htm, line 211: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 1739 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2019/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2019/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 6099 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 5183 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.pro-football-reference.com/years/2020/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2020/fantasy.htm, line 211: unreachable code after return statement
+2022-08-30 18:42:20.209 plugin-container[4719:141729] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-30 18:42:20.210 plugin-container[4719:141729] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-30 18:42:20.216 plugin-container[4719:141729] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-30 18:42:20.216 plugin-container[4719:141729] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-30 18:42:20.217 plugin-container[4719:141741] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-30 18:42:20.217 plugin-container[4719:141741] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 1534 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/yahoodisplay873773666324/moatad.js#moatClientLevel1=Yahoo!&moatClientLevel2=357098&moatClientLevel3=1850375&moatClientLevel4=4056619&moatClientSlicer1=3&moatClientSlicer2=0&zMoatAuctionID=6863558981515734670:1661884942234&zMoatAdReqDomain=pro-football-reference.com, line 238: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 5748 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://717786-tags.mmi360.net/mmi-zip.js?cust=gm&agency=amnet&type=js&plat=CM360&mode=ivt-blk&advid=3876774&siteid=7494300&cmpnid=26954619&pcmtid=322728244&crtvid=163511991&rndnum=3055443866&site=N8334.4294324YAHOOADTECHLLC&adid=515849267&aucid=&exch=&sellid= line 1 > eval line 1 > eval, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.pro-football-reference.com/years/2021/fantasy.htm, line 211: unreachable code after return statement
+JavaScript warning: https://www.pro-football-reference.com/years/2021/fantasy.htm, line 211: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ppzs-o_oDTLysEGEkZroIB51IgxzANAUgUjK_Y8VX9I.js line 2 > eval line 1243 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661884949349	Marionette	INFO	Stopped listening on port 56287
