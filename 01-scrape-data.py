@@ -36,7 +36,7 @@ def scrape_ff_yr(years: list, directory: str = ''):
         time.sleep(0.5)
         table_html = driver.find_element('xpath', '//*[@id="fantasy"]').get_attribute('outerHTML')
         data_table = pd.read_html(table_html)[0]
-        file_name = directory + 'ff_' + str(year) + '.csv'
+        file_name = directory + 'ff-' + str(year) + '.csv'
         data_table.to_csv(file_name, index = False)
         data_tables.append(data_table)
         time.sleep(0.5)
