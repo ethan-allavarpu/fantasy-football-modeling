@@ -75,7 +75,12 @@ def clean_data(file_path: str, directory: str = ''):
     # Did not get at least 50 PPR points
     ff_year = ff_year[ff_year.fantpos.isin(['QB', 'RB', 'WR', 'TE'])]
     ff_year = ff_year[ff_year.games_g > 4]
-    ff_year = ff_year[ff_year.fantasy_ppr >= 50]
+
+    # Position-specific criteria
+    # QB: 100 PPR points
+    ff_year = ff_year[(ff_year.fantasy_ppr >= 100) | (ff_year.fantasy_ppr != 'QB')]
+    # All other positions: 50 PPR points
+    ff_year = ff_year[(ff_year.fantasy_ppr >= 50) | (ff_year.fantasy_ppr == 'QB')]
 
     # NA values treated as 0
     ff_year.loc[:, 'games_g':'fantasy_vbd'] = ff_year.loc[:, 'games_g':'fantasy_vbd'].fillna(0)
@@ -85,7 +90,9 @@ def clean_data(file_path: str, directory: str = ''):
 
     # Only use game-adjusted columns
     columns_to_adjust = [feature for feature in ff_year.columns
-                         if (ff_year.dtypes[feature] in [float, int]) and (re.match('games', feature) is None)]
+                         if (ff_year.dtypes[feature] in [float, int])
+                         and (re.match('games', feature) is None)
+                         and (re.match('age', feature) is None)]
     adjusted_columns = pd.DataFrame({stat + '_adj': ff_year[stat] / np.sqrt(ff_year.games_g / ff_year.games_g.max())
                                      for stat in columns_to_adjust})
     ff_year = pd.concat([ff_year, adjusted_columns], axis = 1)      
@@ -104,7 +111,7 @@ for yr in range(len(ff_year_dfs) - 1):
 
 # Save most recent year as test data
 test_df = ff_year_dfs[-1]
-test_df.to_csv('data/processed/test-data.csv')
+test_df.to_csv('data/processed/test-data.csv', index = False)
 # Save all other years as modeling data
 modeling_df = pd.concat(ff_year_dfs[:-1]).reset_index(drop = True)
-modeling_df.to_csv('data/processed/modeling-data.csv')
+modeling_df.to_csv('data/processed/modeling-data.csv', index = False)
