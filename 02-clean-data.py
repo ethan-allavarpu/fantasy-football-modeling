@@ -72,7 +72,6 @@ def clean_data(file_path: str, directory: str = ''):
     # Drop criteria (meet one of the following):
     # Position not in [QB, RB, WR, TE]
     # Played 4 or fewer games
-    # Did not get at least 50 PPR points
     ff_year = ff_year[ff_year.fantpos.isin(['QB', 'RB', 'WR', 'TE'])]
     ff_year = ff_year[ff_year.games_g > 4]
 
