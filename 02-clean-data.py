@@ -78,9 +78,9 @@ def clean_data(file_path: str, directory: str = ''):
 
     # Position-specific criteria
     # QB: 100 PPR points
-    ff_year = ff_year[(ff_year.fantasy_ppr >= 100) | (ff_year.fantasy_ppr != 'QB')]
+    ff_year = ff_year[(ff_year.fantasy_ppr >= 100) | (ff_year.fantpos != 'QB')]
     # All other positions: 50 PPR points
-    ff_year = ff_year[(ff_year.fantasy_ppr >= 50) | (ff_year.fantasy_ppr == 'QB')]
+    ff_year = ff_year[(ff_year.fantasy_ppr >= 50) | (ff_year.fantpos == 'QB')]
 
     # NA values treated as 0
     ff_year.loc[:, 'games_g':'fantasy_vbd'] = ff_year.loc[:, 'games_g':'fantasy_vbd'].fillna(0)
