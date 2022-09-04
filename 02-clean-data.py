@@ -114,3 +114,9 @@ test_df.to_csv('data/processed/test-data.csv', index = False)
 # Save all other years as modeling data
 modeling_df = pd.concat(ff_year_dfs[:-1]).reset_index(drop = True)
 modeling_df.to_csv('data/processed/modeling-data.csv', index = False)
+
+# Remove non-adjusted and extraneous columns
+modeling_df.drop(columns = modeling_df.loc[:, 'passing_cmp':'fantasy_ppr'].columns.to_list() + \
+    ['games_gs', 'rushing_y/a_adj', 'receiving_y/r_adj', 'fantasy_fantpt_adj', 'fantasy_ppr_adj'],
+    inplace = True)
+modeling_df.to_csv('data/processed/modeling-data-reduced.csv', index = False)
