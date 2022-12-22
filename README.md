@@ -9,7 +9,7 @@ Before implementation, ensure that you have [geckodriver](https://github.com/moz
 There are two options for how to execute the model: a single Shell script (simpler option) or a Python script-by-script implementation.
 
 ### Command-Line Interface
-`model-cli.sh` is a command-line Shell script to run the entire model (including the scraping process) a single file. This also downloads the required packages listed in `package-reqs.txt`.
+`model-cli.sh` is a command-line Shell script to run the entire model (including the scraping process) a single file. This also downloads the required packages listed in `package-reqs.txt`. You can run the Shell script with `bash model-cli.sh`
 
 ### Individual Python Files
 1. Run `pip install -r package-reqs.txt` in Terminal/Command Prompt to ensure the required packages are available for use.
