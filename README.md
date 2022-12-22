@@ -14,7 +14,7 @@ There are two options for how to execute the model: a single Shell script (simpl
 ### Individual Python Files
 1. Run `pip install -r package-reqs.txt` in Terminal/Command Prompt to ensure the required packages are available for use.
 2. Code scripts/notebooks should be run in numerical order by the number at the start of each file.
-    - e.g., `01-.\*.py`, `02-.\*.py`, etc.
+    - e.g., `01-*.py`, `02-*.py`, etc.
     - Files with the same initial digits can be run simultaneously or in any order
   
 
